@@ -1,0 +1,48 @@
+{
+    "navbar":
+    {
+        "home": "Inicio",
+        "tech": "Tecnologías",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    
+    "hero":
+    {
+        "desc": "Centrémonos en ofrecer soluciones significativas, aceptando los retos como oportunidades para perfeccionar y mejorar.",
+        "subdesc": "Cada reto es un paso hacia la excelencia!"
+    },
+    
+    "tech": 
+    {
+        "title": "Tecnologías",
+        "desc": "Tengo experiencia trabajando con varias tecnologías a través de frontend, backend, DevOps y gestión de proyectos.",
+        "category": "Infraestructura y colaboración"
+    },
+
+    "projects": 
+    {
+        "title": "Prácticas y proyectos académicos",
+        "ArConstructora": {
+            "title": "CONSTRUCTORA AR S.R.L",
+            "desc": "Un proyecto privado para gestionar todos los datos de una empresa de construcción, desde un usuario hasta lo contable."
+        },
+        "Farmacia": {
+            "title": "FARMACIA FLORESTA",
+            "desc": "Proyecto universitario open-source para gestionar los articulos de una farmacia"
+        },
+        "iPage": {
+            "title": "iPAGE (En desarrollo)",
+            "desc": "Proyecto privado para gestionar el stock y los turnos de una tienda de celulares"
+        }
+
+    },
+
+    "contacts": 
+    {
+        "title": "Ponte en contacto",
+        "desc": "¿Quieres charlar? Haga clic en el botón para enviarme un correo electrónico y me pondré en contacto con usted lo antes posible.",
+        "textButton": "Contactame"
+    }
+    
+}

@@ -1,0 +1,47 @@
+{
+    "navbar":
+    {
+        "home": "Home",
+        "tech": "Tech",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    
+    "hero":
+    {
+        "desc": "Let’s focus on delivering meaningful solutions, embracing challenges as opportunities to refine and improve.",
+        "subdesc": "Every challenge is a step toward excellence!"
+    },
+    
+    "tech": 
+    {
+        "title": "Technologies",
+        "desc": "I have experience working with various technologies across frontend, backend, DevOps, and project management tools.",
+        "category": "Infrastructure & Collaboration"
+    },
+
+    "projects": 
+    {
+        "title": "Intenships & Academic Projects",
+        "ArConstructora": {
+            "title": "CONSTRUCTORA AR S.R.L",
+            "desc": "A private project to manage all the data of a construction company, from user to accounting."
+        },
+        "Farmacia": {
+            "title": "FARMACIA FLORESTA",
+            "desc": "Open-source university project to manage items in a pharmacy"
+        },
+        "iPage": {
+            "title": "iPAGE (In development)",
+            "desc": "Private project to manage the stock and shifts of a cell phone store."
+        } 
+    },
+
+    "contacts": 
+    {
+        "title": "Get in Touch",
+        "desc": "Want to chat? Click the button to send me an email, and I'll get back to you as soon as possible",
+        "textButton": "Contact Me"
+    }
+    
+}
