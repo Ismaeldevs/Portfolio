@@ -74,12 +74,15 @@ const Navbar = () => {
     {/* Mobile Menu */}
     {isOpen && (
         <div className={`fixed right-0 top-[84px] flex h-screen w-1/3 flex-col items-start justify-start gap-10 border-l border-gray-800 bg-black/90 p-12`}>
-            <ul className='flex flex-col gap-8'>
+            <ul className='flex flex-col gap-8 relative right-3'>
                 {renderMenuItems('')}
             </ul>
 
             <ul className='flex flex-wrap gap-5'>
                 {renderSocialLinks('')}
+                <button onClick={() => i18n.changeLanguage(i18n.language === "en" ? "es" : "en")}>
+            <MdGTranslate className='relative left-1'/>
+         </button>
             </ul>
         </div>
     )}
