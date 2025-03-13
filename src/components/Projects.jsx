@@ -1,8 +1,9 @@
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
-import farma from "/public/farma.jpg"
-import ipage from "/public/ipage.png"
 import constructora from "/public/constructora.png"
+import uptask from "/public/uptask.svg"
+import nakamatec from "/public/nakamatec.png"
+import gym from "/public/gymflow.png"
 import { CiLink } from "react-icons/ci";
 import { useTranslation } from 'react-i18next'
 
@@ -17,21 +18,32 @@ const Projects = () => {
       title: t("projects.ArConstructora.title"),
       description: t("projects.ArConstructora.desc"),
       links: {
-        github: "https://github.com/Ismaeldevs",
+        github: "https://github.com/Nakama-Tec/ConstructoraAR",
+        site: "https://arconstructora.netlify.app/",
       },
     },
     {
-        img:farma,
-        title: t("projects.Farmacia.title"),
-      description: t("projects.Farmacia.desc"),
+        img:uptask,
+        title: t("projects.Uptask.title"),
+      description: t("projects.Uptask.desc"),
       links: {
-        github: "https://github.com/Ismaeldevs/Proyecto-Farma",
+        github: "https://github.com/Ismaeldevs/UpTask_Frontend",
+        site: "https://uptask.ismaeldev.com/",
       },
     },
     {
-        img:ipage,
-        title: t("projects.iPage.title"),
-      description: t("projects.iPage.desc"),
+      img:nakamatec,
+      title: t("projects.Nakamatec.title"),
+    description: t("projects.Nakamatec.desc"),
+    links: {
+      github: "https://github.com/Nakama-Tec/NakamatecWeb",
+      site: "https://www.nakamatec.com/",
+    },
+  },
+    {
+        img:gym,
+        title: t("projects.Gymflow.title"),
+      description: t("projects.Gymflow.desc"),
       links: {
         github: "https://github.com/Ismaeldevs",
       },
@@ -43,7 +55,6 @@ const Projects = () => {
     <div className='max-w-[1000px] mx-auto p-6 md:my-20' >
     <h2 className='text-3xl font-bold text-gray-200 mb-8'>{t("projects.title")}</h2>
     {projects.map((project, index) => (
-        // eslint-disable-next-line react/jsx-key
         <Reveal>
         <div key={index} 
         className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}>
@@ -60,13 +71,13 @@ const Projects = () => {
                
                 <div className='flex space-x-4'>
                    
-                    <a href={project.links.github}
+                    <a target='_blank' href={project.links.github}
                         className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                     transition duration-300'>
                         <AiOutlineGithub/>
                     </a>
              
-                    <a href={project.links.site}
+                    <a target='_blank' href={project.links.site}
                         className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                     transition duration-300'>
                         <CiLink/>

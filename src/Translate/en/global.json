@@ -27,13 +27,17 @@
             "title": "CONSTRUCTORA AR S.R.L",
             "desc": "A private project to manage all the data of a construction company, from user to accounting."
         },
-        "Farmacia": {
-            "title": "FARMACIA FLORESTA",
-            "desc": "Open-source university project to manage items in a pharmacy"
+        "Uptask": {
+            "title": "UpTask",
+            "desc": "Manage your projects and tasks"
         },
-        "iPage": {
-            "title": "iPAGE (In development)",
-            "desc": "Private project to manage the stock and shifts of a cell phone store."
+        "Nakamatec": {
+            "title": "NakamaTec",
+            "desc": "Landing Page of a software company."
+        },
+        "Gymflow": {
+            "title": "GymFlow (In development)",
+            "desc": "Manage the users of a gym"
         } 
     },
 

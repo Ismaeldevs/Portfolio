@@ -1,4 +1,4 @@
-import cartoon from "/public/Code&Chill.png"
+import cartoon from "/public/profile.jpg"
 import {motion} from "framer-motion"
 import { useTranslation } from 'react-i18next'
 

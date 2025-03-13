@@ -27,13 +27,17 @@
             "title": "CONSTRUCTORA AR S.R.L",
             "desc": "Un proyecto privado para gestionar todos los datos de una empresa de construcción, desde un usuario hasta lo contable."
         },
-        "Farmacia": {
-            "title": "FARMACIA FLORESTA",
-            "desc": "Proyecto universitario open-source para gestionar los articulos de una farmacia"
+        "Uptask": {
+            "title": "UpTask",
+            "desc": "Administra tus proyectos y tareas."
         },
-        "iPage": {
-            "title": "iPAGE (En desarrollo)",
-            "desc": "Proyecto privado para gestionar el stock y los turnos de una tienda de celulares"
+        "Nakamatec": {
+            "title": "NakamaTec",
+            "desc": "Landing Page de una empresa de software."
+        },
+        "Gymflow": {
+            "title": "Gymflow (En desarrollo)",
+            "desc": "Gestiona los usuarios de un gimnasio."
         }
 
     },
