@@ -19,7 +19,7 @@ const Navbar = () => {
     
     
     const socialLinks = [
-        { icon: <BsLinkedin />, href: "https://www.linkedin.com/in/pedro-ismael-ch%C3%A1vez/", color: 'text-blue-300' },
+        { icon: <BsLinkedin />, href: "https://www.linkedin.com/in/isma-chavez/", color: 'text-blue-300' },
         { icon: <BsGithub />, href: "https://github.com/Ismaeldevs", color: 'text-purple-500' },
         { icon: <BsFileEarmarkArrowDown />, href: `${import.meta.env.VITE_PUBLIC_URL}CV - Ismael.pdf`, color: 'text-green-500', title: "Download CV" },
         
