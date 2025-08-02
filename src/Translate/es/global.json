@@ -17,7 +17,9 @@
     {
         "title": "Tecnologías",
         "desc": "Tengo experiencia trabajando con varias tecnologías a través de frontend, backend, DevOps y gestión de proyectos.",
-        "category": "Infraestructura y colaboración"
+        "categoryInfra": "Infraestructura y colaboración",
+        "categoryCS": "Ciberseguridad"
+
     },
 
     "projects": 

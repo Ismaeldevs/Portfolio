@@ -17,7 +17,8 @@
     {
         "title": "Technologies",
         "desc": "I have experience working with various technologies across frontend, backend, DevOps, and project management tools.",
-        "category": "Infrastructure & Collaboration"
+        "categoryInfra": "Infrastructure & Collaboration",
+        "categoryCS": "Cibersecurity"
     },
 
     "projects": 
