@@ -26,20 +26,20 @@
         "title": "Intenships & Academic Projects",
         "ArConstructora": {
             "title": "CONSTRUCTORA AR S.R.L",
-            "desc": "A private project to manage all the data of a construction company, from user to accounting."
+            "desc": "A private project with a landing page and management system to manage all the data of a construction company, from user to accounting."
+        },
+        "NoxRecon": {
+            "title": "NoxRecon - OSINT Toolkit",
+            "desc": "Cybersecurity project for fast and efficient reconnaissance."
+        },
+        "Nakamatec": {
+            "title": "NakamaTec",
+            "desc": "Landing Page for a software company."
         },
         "Uptask": {
             "title": "UpTask",
             "desc": "Manage your projects and tasks"
-        },
-        "Nakamatec": {
-            "title": "NakamaTec",
-            "desc": "Landing Page of a software company."
-        },
-        "Gymflow": {
-            "title": "GymFlow (In development)",
-            "desc": "Manage the users of a gym"
-        } 
+        }
     },
 
     "contacts": 

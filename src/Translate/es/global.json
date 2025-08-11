@@ -27,19 +27,19 @@
         "title": "Prácticas y proyectos académicos",
         "ArConstructora": {
             "title": "CONSTRUCTORA AR S.R.L",
-            "desc": "Un proyecto privado para gestionar todos los datos de una empresa de construcción, desde un usuario hasta lo contable."
+            "desc": "Un proyecto privado con Landing page y sistema de gestión para gestionar todos los datos de una empresa de construcción, desde un usuario hasta lo contable."
+        },
+        "NoxRecon": {
+            "title": "NoxRecon - OSINT Toolkit",
+            "desc": "Proyecto de ciberseguridad para realizar reconocimiento de manera rápida y eficiente."
+        },
+        "Nakamatec": {
+            "title": "NakamaTec",
+            "desc": "Landing Page para una empresa de software."
         },
         "Uptask": {
             "title": "UpTask",
             "desc": "Administra tus proyectos y tareas."
-        },
-        "Nakamatec": {
-            "title": "NakamaTec",
-            "desc": "Landing Page de una empresa de software."
-        },
-        "Gymflow": {
-            "title": "Gymflow (En desarrollo)",
-            "desc": "Gestiona los usuarios de un gimnasio."
         }
 
     },
