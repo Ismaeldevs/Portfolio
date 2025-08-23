@@ -1,54 +1,133 @@
 {
-    "navbar":
-    {
+    "navbar": {
         "home": "Inicio",
         "tech": "Tecnologías",
         "projects": "Proyectos",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "downloadCV": "Descargar CV"
     },
     
-    "hero":
-    {
-        "desc": "Centrémonos en ofrecer soluciones significativas, aceptando los retos como oportunidades para perfeccionar y mejorar.",
+    "hero": {
+        "greeting": "¡Hola! Soy",
+        "name": "Ismael Chávez",
+        "title": "Desarrollador de Software",
+        "titleHighlight": "Full-Stack",
+        "subtitle": "Full-Stack Web & Apasionado por la",
+        "subtitleHighlight": "seguridad informática",
+        "subtitleEnd": "",
+        "ctaProjects": "Ver Proyectos",
+        "ctaContact": "Contactar",
+        "description": "Centrémonos en ofrecer soluciones significativas, aceptando los retos como oportunidades para perfeccionar y mejorar.",
         "subdesc": "Cada reto es un paso hacia la excelencia!"
     },
     
-    "tech": 
-    {
-        "title": "Tecnologías",
-        "desc": "Tengo experiencia trabajando con varias tecnologías a través de frontend, backend, DevOps y gestión de proyectos.",
+    "tech": {
+        "title": "Tecnologías & Herramientas",
+        "desc": "Stack tecnológico moderno para crear aplicaciones web de alta calidad y rendimiento.",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend", 
+            "infrastructure": "Infraestructura & DevOps",
+            "cybersecurity": "Ciberseguridad"
+        },
         "categoryInfra": "Infraestructura y colaboración",
         "categoryCS": "Ciberseguridad"
-
     },
 
-    "projects": 
-    {
-        "title": "Prácticas y proyectos académicos",
+    "stats": {
+        "titleStats": "Mi Impacto en Números",
+        "experience": "Año de Experiencia",
+        "projects": "Proyectos Desarrollados",
+        "technologies": "Tecnologías Dominadas",
+        "dedication": "Dedicación"
+    },
+
+    "projects": {
+        "title": "Proyectos Destacados",
+        "desc": "Una selección de mis trabajos más recientes, desde aplicaciones web hasta herramientas de ciberseguridad.",
+        "viewMore": "Ver Más Proyectos",
+        "buttons": {
+            "code": "Código",
+            "demo": "Ver Demo",
+            "github": "Ver código",
+            "live": "Ver proyecto"
+        },
+        "categories": {
+            "fullstack": "Full Stack",
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "cybersecurity": "Ciberseguridad",
+            "mobile": "Móvil"
+        },
         "ArConstructora": {
             "title": "CONSTRUCTORA AR S.R.L",
-            "desc": "Un proyecto privado con Landing page y sistema de gestión para gestionar todos los datos de una empresa de construcción, desde un usuario hasta lo contable."
+            "desc": "Un proyecto privado con Landing page y sistema de gestión para gestionar todos los datos de una empresa de construcción, desde un usuario hasta lo contable.",
+            "category": "Full Stack"
         },
         "NoxRecon": {
             "title": "NoxRecon - OSINT Toolkit",
-            "desc": "Proyecto de ciberseguridad para realizar reconocimiento de manera rápida y eficiente."
+            "desc": "Proyecto de ciberseguridad para realizar reconocimiento de manera rápida y eficiente.",
+            "category": "Ciberseguridad"
         },
         "Nakamatec": {
             "title": "NakamaTec",
-            "desc": "Landing Page para una empresa de software."
+            "desc": "Landing Page para una empresa de software.",
+            "category": "Frontend"
         },
         "Uptask": {
             "title": "UpTask",
-            "desc": "Administra tus proyectos y tareas."
+            "desc": "Administra tus proyectos y tareas.",
+            "category": "Full Stack"
         }
-
     },
 
-    "contacts": 
-    {
-        "title": "Ponte en contacto",
-        "desc": "¿Quieres charlar? Haga clic en el botón para enviarme un correo electrónico y me pondré en contacto con usted lo antes posible.",
-        "textButton": "Contactame"
+    "contacts": {
+        "title": "Trabajemos Juntos",
+        "desc": "¿Tienes un proyecto en mente? Me encantaría escuchar tus ideas y ayudarte a convertirlas en realidad.",
+        "formTitle": "Envíame un mensaje",
+        "formDesc": "¿Tienes una idea de proyecto? ¡Hablemos!",
+        "textButton": "Contactame",
+        "altContact": "O contáctame directamente",
+        "name": "Ismael Chávez",
+        "role": "Full-Stack Developer",
+        "availability": "Disponible para proyectos",
+        "expYears": "Año de experiencia",
+        "projects": "Proyectos desarrollados",
+        "downloadCV": "Descargar CV",
+        "responseTime": "Tiempo de respuesta: 24h",
+        "quote": "La tecnología es mejor cuando une a las personas."
+    },
+
+    "footer": {
+        "copyright": "Desarrollado con ❤️ usando React, Tailwind CSS y Framer Motion.",
+        "allRights": "Todos los derechos reservados."
+    },
+
+    "performance": {
+        "title": "Monitor de Rendimiento",
+        "metrics": {
+            "loadTime": "Tiempo de Carga",
+            "fps": "FPS",
+            "memory": "Memoria",
+            "latency": "Latencia",
+            "lighthouse": "Lighthouse"
+        },
+        "status": "Monitoreo en tiempo real"
+    },
+
+    "common": {
+        "loading": "Cargando...",
+        "error": "Error",
+        "retry": "Reintentar",
+        "close": "Cerrar",
+        "open": "Abrir",
+        "menu": "Menú",
+        "language": "Idioma",
+        "theme": "Tema",
+        "light": "Claro",
+        "dark": "Oscuro",
+        "auto": "Automático"
     }
-    
 }

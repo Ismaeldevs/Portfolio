@@ -1,52 +1,133 @@
 {
-    "navbar":
-    {
+    "navbar": {
         "home": "Home",
-        "tech": "Tech",
+        "tech": "Technologies",
         "projects": "Projects",
-        "contact": "Contact"
+        "contact": "Contact",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "downloadCV": "Download CV"
     },
     
-    "hero":
-    {
-        "desc": "Let’s focus on delivering meaningful solutions, embracing challenges as opportunities to refine and improve.",
+    "hero": {
+        "greeting": "Hello! I'm",
+        "name": "Ismael Chávez",
+        "title": "Software Developer",
+        "titleHighlight": "Full-Stack",
+        "subtitle": "Full-Stack Web & Passionate about",
+        "subtitleHighlight": "cybersecurity",
+        "subtitleEnd": "",
+        "ctaProjects": "View Projects",
+        "ctaContact": "Contact",
+        "description": "Let's focus on delivering meaningful solutions, embracing challenges as opportunities to refine and improve.",
         "subdesc": "Every challenge is a step toward excellence!"
     },
     
-    "tech": 
-    {
-        "title": "Technologies",
-        "desc": "I have experience working with various technologies across frontend, backend, DevOps, and project management tools.",
-        "categoryInfra": "Infrastructure & Collaboration",
-        "categoryCS": "Cibersecurity"
+    "tech": {
+        "title": "Technologies & Tools",
+        "desc": "Modern technology stack to create high-quality, high-performance web applications.",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend", 
+            "infrastructure": "Infrastructure & DevOps",
+            "cybersecurity": "Cybersecurity"
+        },
+        "categoryInfra": "Infrastructure and collaboration",
+        "categoryCS": "Cybersecurity"
     },
 
-    "projects": 
-    {
-        "title": "Intenships & Academic Projects",
+    "stats": {
+        "titleStats": "My Impact in Numbers",
+        "experience": "Years of Experience",
+        "projects": "Projects Developed",
+        "technologies": "Technologies Mastered",
+        "dedication": "Dedication"
+    },
+
+    "projects": {
+        "title": "Featured Projects",
+        "desc": "A selection of my most recent work, from web applications to cybersecurity tools.",
+        "viewMore": "View More Projects",
+        "buttons": {
+            "code": "Code",
+            "demo": "View Demo",
+            "github": "View code",
+            "live": "View project"
+        },
+        "categories": {
+            "fullstack": "Full Stack",
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "cybersecurity": "Cybersecurity",
+            "mobile": "Mobile"
+        },
         "ArConstructora": {
             "title": "CONSTRUCTORA AR S.R.L",
-            "desc": "A private project with a landing page and management system to manage all the data of a construction company, from user to accounting."
+            "desc": "A private project with a landing page and management system to handle all data of a construction company, from users to accounting.",
+            "category": "Full Stack"
         },
         "NoxRecon": {
             "title": "NoxRecon - OSINT Toolkit",
-            "desc": "Cybersecurity project for fast and efficient reconnaissance."
+            "desc": "Cybersecurity project to perform reconnaissance quickly and efficiently.",
+            "category": "Cybersecurity"
         },
         "Nakamatec": {
             "title": "NakamaTec",
-            "desc": "Landing Page for a software company."
+            "desc": "Landing page for a software company.",
+            "category": "Frontend"
         },
         "Uptask": {
             "title": "UpTask",
-            "desc": "Manage your projects and tasks"
+            "desc": "Manage your projects and tasks.",
+            "category": "Full Stack"
         }
     },
 
-    "contacts": 
-    {
-        "title": "Get in Touch",
-        "desc": "Want to chat? Click the button to send me an email, and I'll get back to you as soon as possible",
-        "textButton": "Contact Me"
+    "contacts": {
+        "title": "Let's Work Together",
+        "desc": "Do you have a project in mind? I'd love to hear your ideas and help you turn them into reality.",
+        "formTitle": "Send me a message",
+        "formDesc": "Have a project idea? Let's talk!",
+        "textButton": "Contact me",
+        "altContact": "Or contact me directly",
+        "name": "Ismael Chávez",
+        "role": "Full-Stack Developer",
+        "availability": "Available for projects",
+        "expYears": "Years of experience",
+        "projects": "Projects developed",
+        "downloadCV": "Download CV",
+        "responseTime": "Response time: 24h",
+        "quote": "Technology is best when it brings people together."
+    },
+
+    "footer": {
+        "copyright": "Developed with ❤️ using React, Tailwind CSS and Framer Motion.",
+        "allRights": "All rights reserved."
+    },
+
+    "performance": {
+        "title": "Performance Monitor",
+        "metrics": {
+            "loadTime": "Load Time",
+            "fps": "FPS",
+            "memory": "Memory",
+            "latency": "Latency",
+            "lighthouse": "Lighthouse"
+        },
+        "status": "Real-time monitoring"
+    },
+
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "retry": "Retry",
+        "close": "Close",
+        "open": "Open",
+        "menu": "Menu",
+        "language": "Language",
+        "theme": "Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "auto": "Auto"
     }
-    
 }
