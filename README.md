@@ -1,157 +1,9 @@
 # Portfolio Ismael Chávez
 
-## 🚀 Optimizaciones Implementadas
-
-### ✨ Mejoras de Diseño y UX
-- **Tamaño de texto optimizado**: Reducido el tamaño del nombre y puesto en la sección Hero para mejor balance visual
-- **Design System completo**: Implementación de shadcn/ui con componentes reutilizables
-- **Micro-interacciones**: Animaciones flotantes, indicador de progreso y efectos hover avanzados
-- **Tema coherente**: Paleta de colores morado/oscuro aplicada consistentemente
-
-### 📱 Responsive Design
-- **Mobile-first approach**: Diseño optimizado desde móviles hacia escritorio
-- **Breakpoints específicos**:
-  - `sm`: 640px+ (móviles grandes)
-  - `md`: 768px+ (tablets)
-  - `lg`: 1024px+ (laptops)
-  - `xl`: 1280px+ (escritorio)
-  - `2xl`: 1536px+ (pantallas grandes)
-
-### ⚡ Optimizaciones de Rendimiento
-
-#### **Animaciones GPU-aceleradas**
-- Uso de `transform3d()` y `backface-visibility: hidden`
-- Animaciones optimizadas con `will-change` property
-- Reducción de repaints y reflows
-
-#### **Lazy Loading**
-- Imágenes cargadas bajo demanda
-- Componentes optimizados para viewport
-- Animaciones activadas solo cuando son visibles
-
-#### **Code Splitting**
-- Componentes divididos por funcionalidad
-- Imports dinámicos para mejor rendimiento
-- Reducción del bundle inicial
-
-#### **CSS Optimizado**
-- Gradientes optimizados para GPU
-- Efectos de vidrio (`backdrop-filter`) eficientes
-- Transiciones suaves sin comprometer rendimiento
-
-### 🎯 Accesibilidad
-- **Reduced motion**: Respeta la preferencia del usuario
-- **Focus management**: Navegación por teclado optimizada
-- **High contrast**: Soporte para modo alto contraste
-- **Semantic HTML**: Estructura semántica correcta
-
-### 🛠 Tecnologías Utilizadas
-
-#### **Frontend**
-- React 18 + Vite
-- TailwindCSS + PostCSS
-- Framer Motion
-- shadcn/ui + Radix UI
-
-#### **Herramientas**
-- TypeScript (tipado estático)
-- ESLint (linting)
-- Git (control de versiones)
-
-### 📊 Métricas de Rendimiento
-
-#### **Core Web Vitals** (Estimado)
-- **LCP** (Largest Contentful Paint): < 2.5s
-- **FID** (First Input Delay): < 100ms  
-- **CLS** (Cumulative Layout Shift): < 0.1
-
-#### **Optimizaciones Específicas**
-- Tamaño de bundle reducido ~40%
-- Tiempo de carga inicial mejorado ~60%
-- Animaciones suaves en 60 FPS
-- Responsive design fluido
-
-### 🎨 Componentes Principales
-
-#### **Hero Section**
-- Animaciones flotantes optimizadas
-- Texto responsive con escalado inteligente
-- Efectos visuales de bajo impacto en rendimiento
-
-#### **Navbar**
-- Navegación suave entre secciones
-- Detección de sección activa
-- Menú móvil con overlay optimizado
-
-#### **Tech Stack**
-- Grid responsive adaptativo
-- Hover effects con GPU acceleration
-- Iconos optimizados y consistentes
-
-#### **Projects Gallery**
-- Lazy loading de imágenes
-- Hover effects inmersivos
-- Layout responsive automático
-
-#### **Contact Section**
-- Formulario accesible
-- Validación en tiempo real
-- Integración con servicios externos
-
-### 🔧 Scripts Disponibles
-
-```bash
-# Desarrollo
-npm run dev
-
-# Build para producción
-npm run build
-
-# Preview del build
-npm run preview
-
-# Linting
-npm run lint
-```
-
-### 🚀 Deployment
-
-El portfolio está optimizado para deployment en:
-- **Vercel** (recomendado)
-- **Netlify**
-- **GitHub Pages**
-- **Cloudflare Pages**
-
-### 📁 Estructura del Proyecto
-
-```
-src/
-├── components/          # Componentes React
-│   ├── ui/             # Componentes base de shadcn/ui
-│   ├── Hero.jsx        # Sección principal
-│   ├── Navbar.jsx      # Navegación
-│   ├── Tech.jsx        # Tecnologías
-│   ├── Projects.jsx    # Proyectos
-│   └── Contact.jsx     # Contacto
-├── styles/             # Estilos adicionales
-├── icons/              # Iconos personalizados
-├── context/            # Context providers
-└── lib/                # Utilidades y configuración
-```
-
-### 🎯 Próximas Mejoras
-
-- [ ] **PWA Support**: Service Worker para funcionalidad offline
-- [ ] **Dark/Light Mode**: Toggle de tema dinámico
-- [ ] **Internacionalización**: Más idiomas además de ES/EN
-- [ ] **Blog Integration**: Sistema de blog con MDX
-- [ ] **Analytics**: Google Analytics 4 o similar
-- [ ] **SEO Avanzado**: Meta tags dinámicos y schema markup
-
 ---
 
 **Desarrollado con ❤️ por Ismael Chávez**  
-*Full-Stack Developer & UX/UI Enthusiast*
+*Full-Stack Developer & Cybersecurity Enthusiast*
 
 Un portfolio moderno y elegante construido con React, diseñado con un enfoque en UX/UI y utilizando las últimas tecnologías de desarrollo web.
 
@@ -171,7 +23,7 @@ Un portfolio moderno y elegante construido con React, diseñado con un enfoque e
 - **React 18** - Biblioteca de UI moderna
 - **Vite** - Herramienta de build ultra-rápida
 - **React Router DOM** - Navegación entre páginas
-- **TypeScript** - Tipado estático (componentes)
+- **Javascript** - Tipado (componentes)
 
 ### Styling & UI
 - **Tailwind CSS** - Framework de CSS utility-first
@@ -255,46 +107,12 @@ src/
 - `npm run preview` - Vista previa de la build de producción
 - `npm run lint` - Ejecuta ESLint para revisar el código
 
-## 🎨 Personalización del Tema
-
-El proyecto utiliza un sistema de variables CSS para facilitar la personalización:
-
-```css
-:root {
-  --primary: 262.1 83.3% 57.8%;        /* Purple primary */
-  --background: 222.2 84% 4.9%;        /* Dark background */
-  --foreground: 210 40% 98%;           /* Light text */
-  /* ... más variables */
-}
-```
 
 ### Colores principales
 - **Purple**: `#a855f7` - Color principal
 - **Pink**: `#ec4899` - Color secundario
 - **Dark**: `#0f0f23` - Fondo oscuro
 
-## 🌐 Internacionalización
-
-### Agregar nuevos idiomas
-1. Crear archivo de traducción en `src/Translate/[idioma]/global.json`
-2. Importar en `src/i18n.js`
-3. Agregar al objeto `resources`
-
-### Estructura de traducciones
-```json
-{
-  "navbar": {
-    "home": "Inicio",
-    "tech": "Tecnologías",
-    "projects": "Proyectos",
-    "contact": "Contacto"
-  },
-  "hero": {
-    "desc": "Descripción del hero...",
-    "subdesc": "Subtítulo motivacional"
-  }
-}
-```
 
 ## 📱 Características Responsivas
 
@@ -311,16 +129,6 @@ El proyecto utiliza un sistema de variables CSS para facilitar la personalizaci�
 - **Hover Effects**: Interacciones elegantes al pasar el mouse
 - **Stagger Animations**: Animaciones escalonadas para listas
 
-### Ejemplos de uso
-```jsx
-<motion.div
-  initial={{ opacity: 0, y: 50 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6 }}
->
-  Content
-</motion.div>
-```
 
 ## 🔧 Configuración de shadcn/ui
 
@@ -337,25 +145,6 @@ Los componentes están configurados con:
 - **Bundle Analysis**: Análisis del tamaño del bundle
 - **CSS Purging**: Eliminación de CSS no utilizado
 
-## 🚀 Deployment
-
-### Vercel (Recomendado)
-```bash
-npm run build
-# Deploy directamente desde GitHub
-```
-
-### Netlify
-```bash
-npm run build
-# Subir carpeta dist/
-```
-
-### Configuración de rutas SPA
-Crear `_redirects` para Netlify:
-```
-/*    /index.html   200
-```
 
 ## 🤝 Contribuciones
 
