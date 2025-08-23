@@ -234,12 +234,13 @@ const Hero = () => {
                             <p className="text-base sm:text-lg md:text-xl text-gray-300/90 leading-relaxed font-normal text-center">
                                 {t("hero.description")}
                             </p>
-                            <p className="text-sm sm:text-base md:text-lg text-purple-400/90 font-medium flex items-center justify-center gap-2">
-                                {t("hero.subdesc")} 
+                            {/* Sub Description */}
+                            <p className="text-sm sm:text-base md:text-lg text-purple-400/90 font-medium text-center flex items-center justify-center gap-2">
+                                <span>{t("hero.subdesc")}</span>
                                 <motion.span
                                     animate={{ rotate: [0, 360] }}
                                     transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-                                    className="text-base sm:text-lg md:text-xl"
+                                    className="text-base sm:text-lg md:text-xl hidden sm:inline-block"
                                 >
                                     ⚙️
                                 </motion.span>
