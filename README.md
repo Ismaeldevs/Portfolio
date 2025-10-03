@@ -359,7 +359,7 @@ Este proyecto está licenciado bajo la **Licencia MIT** - ver el archivo [LICENS
   
   <br>
   
-  <p>Construido con ❤️ por <a href="https://github.com/Isman-dev">@Isman-dev</a></p>
+  <p>Construido con ❤️ por <a href="https://github.com/Isman-dev">@Ismaeldevs</a></p>
   <p>Potenciado por React, TypeScript, y Tailwind CSS</p>
   
   <p>
