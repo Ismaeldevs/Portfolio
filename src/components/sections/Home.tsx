@@ -284,7 +284,7 @@ export default memo(function Home() {
 
       {/* Back to Top Button */}
       <a 
-        href="#home" 
+        href="#inicio" 
         className={`fixed bottom-8 right-8 p-4 rounded-full transition-all duration-500 ease-in-out transform hover:scale-110 z-30 ${
           showBackToTop 
             ? 'opacity-100 translate-y-0' 
