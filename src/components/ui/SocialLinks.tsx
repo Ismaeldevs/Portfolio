@@ -36,7 +36,7 @@ const socialLinks = [
     description: 'Actualizaciones Sociales'
   },
   {
-    name: 'X (Anteriormente Twitter)',
+    name: 'X',
     url: 'https://x.com/Ismanchz',
     icon: FaXTwitter,
     color: 'text-electric-black',
