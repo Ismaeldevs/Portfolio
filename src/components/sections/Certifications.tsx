@@ -122,7 +122,7 @@ export default function Certifications() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center space-x-2 text-electric-emerald hover:text-electric-cyan transition-colors duration-300 group/link text-sm"
                       >
-                        <span className="font-semibold">View Certificate</span>
+                        <span className="font-semibold">Ver Certificado</span>
                         <ExternalLink className="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-1" />
                       </a>
                     </div>

@@ -9,7 +9,7 @@ export const certifications = [
   },
   {
     id: 2,
-    name: "Certificado de Ciberseguridad de Google",
+    name: "Certificado de Google Cybersecurity",
     issuer: "Google",
     date: "2025",
     url: "#",
