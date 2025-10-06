@@ -7,16 +7,16 @@ export const certifications = [
     url: "#",
     status: "completado"
   },
-    {
-    id: 4,
+  {
+    id: 2,
     name: "Certificado de Ciberseguridad de Google",
     issuer: "Google",
-    status: "en progreso",
-    progress: 85,
-    expectedCompletion: "2025"
+    date: "2025",
+    url: "#",
+    status: "completado"
   },
   {
-    id: 5,
+    id: 3,
     name: "OSCP (Offensive Security Certified Professional)",
     issuer: "Offensive Security",
     status: "en progreso",
