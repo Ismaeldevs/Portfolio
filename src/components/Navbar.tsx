@@ -27,7 +27,7 @@ const NavLink = memo(({ href, children, isActive, onClick }: NavLinkProps) => {
 export default memo(function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [activeSection, setActiveSection] = useState('#home');
+  const [activeSection, setActiveSection] = useState('#inicio');
 
   const handleScroll = useCallback(() => {
     setScrolled(window.scrollY > 20);
